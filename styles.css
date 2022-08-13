@@ -31,6 +31,15 @@ li{
     list-style-type: none;
     
 }
+.container{
+    padding: 56px 0;
+
+}
+.row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .header__img{
     
     border-radius: 60px;
@@ -117,4 +126,33 @@ button:active{
 }
 .header__img--wrapper{
     padding: 20px;
+}
+
+
+/* Highlights */
+
+.highlight__wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.fa-bolt{
+    border: 2px solid rgb(253, 207, 0) ;
+    padding: 24px 32px;
+    color: rgb(253, 207, 0);
+    font-size: 26px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}
+
+.highlight__subtitle{
+    font-size: 20px;
+    margin-bottom: 16px;
+
+    
+}
+
+.highlight__para{
+    font-size: 16px ;
+    max-width: 280px;
 }
